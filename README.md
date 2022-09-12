@@ -14,4 +14,4 @@ Preferred Name: Sam
 
 Discord username: sammo419
 
-REPL url: SamuelMontes4
+REPL url: [SamuelMontes4](https://replit.com/join/mbtamqihen-samuelmontes4)
