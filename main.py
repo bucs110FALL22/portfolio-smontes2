@@ -1,5 +1,5 @@
-#this prints hello
-print("Hello World")
+import random
 
-#Use command / to add comment to multiple lines
+result = random.randint(0,11) 
 
+print(result)

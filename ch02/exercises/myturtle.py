@@ -10,16 +10,7 @@ angle = 90
 for i in [angle]*square:
   turtle.forward(length)
   turtle.left(i)
-
-# turtle.delay(100)
-# turtle.forward(50)
-# turtle.left(90)
-# turtle.forward(50)
-# turtle.left(90)
-# turtle.forward(50)
-# turtle.left(90)
-# turtle.forward(50)
-
+  
 turtle.penup()
 turtle.setpos(100,100)
 
@@ -29,16 +20,5 @@ turtle.pendown()
 for k in [angle]*square:
   turtle.forward(length)
   turtle.left(k)
-
-# turtle.delay(100)
-# turtle.forward(50)
-# turtle.left(90)
-# turtle.forward(50)
-# turtle.left(90)
-# turtle.forward(50)
-# turtle.left(90)
-# turtle.forward(50)
-
-
 
 turtle.exitonclick()
