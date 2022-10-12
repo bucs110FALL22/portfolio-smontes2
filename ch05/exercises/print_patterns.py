@@ -14,13 +14,9 @@ star_pyramid()
 
 #Part B
 def rstar_pyramid():
-  print("Enter the number of rows:")
-  row = int(input("Rows:"))
+  levels = int(input("Enter the number of rows:"))
 
-  for i in range (0,row):  
-      for j in range (row,i,-1):  
-        print("*", end="")
-      
-      print()
+  for i in range (levels, 0,-1):  
+      print("*" * i)
   
 rstar_pyramid()
