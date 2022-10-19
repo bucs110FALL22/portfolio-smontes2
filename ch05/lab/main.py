@@ -39,10 +39,9 @@ window.blit(new_display , test)
 pygame.display.flip()
 
 
-# font = pygame.font.Font(None, 50)
-# text = font.render("Pick a color to begin:", True, "White")
-# text_rect = text.get_rect()
-# window.blit(text, text_rect)
+font = pygame.font.Font(None, 25)
+text = font.render("test", True, "White")
+window.blit(text, (10,10))
 
 pygame.display.flip()
 
