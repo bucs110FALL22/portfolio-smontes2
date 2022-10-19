@@ -20,3 +20,5 @@ def rstar_pyramid():
       print("*" * i)
   
 rstar_pyramid()
+
+

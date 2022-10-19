@@ -13,3 +13,5 @@ num_sides = int(input("Number of sides:"))
 side_length = int(input("Length of sides:"))
 
 drawEqShape(leo, num_sides, side_length)
+
+turtle.exitonclick()
