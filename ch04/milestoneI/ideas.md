@@ -16,14 +16,14 @@ Review the sample Final Projects listed below and come up with 3 possible ideas 
 
 For each one below you should have a basic description of a program idea, a couple of sentences at least. You can add as much info here as you like. This is where you want to brainstorm a little, and nothing is *'wrong'*.
 
-## Project Idea 1
+## Project Idea 1: Baseball game
 
-< add your idea here >
+< The first idea we have is to create a baseball game. Similar to the game retro bowl if you know what that is. It is a simple game that would have 8 bit characters and game play like wii sports baseball >
 
-## Project Idea 2
+## Project Idea 2: Stock Market Simulator
 
-< add your idea here >
+< The second idea we have was to create a stock market simulator that used real data. The user would have a starting amount of moeny and could invest that money according to the real stock price without any consequences because they aren't usign real money >
 
-## Project Idea 3
+## Project Idea 3: None
 
-< add your idea here >
+< Only have two ideas >
