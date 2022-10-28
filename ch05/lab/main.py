@@ -2,8 +2,8 @@ import pygame
 import time
 
 iters = {}
-upper_limit = 15
-scale = 20
+upper_limit = 100
+scale = 5
 max_val = 0
 max_so_far = 0
 

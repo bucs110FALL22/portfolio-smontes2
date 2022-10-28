@@ -2,12 +2,12 @@ import turtle
 
 t = turtle.Turtle()
 turtle.screensize(500,500)
-t.penup()
-t.goto(0,50)
-t.pendown()
 
 def main():
-  var = head()
+  t.penup()
+  t.goto(0,50)
+  t.pendown()
+  head_sides = head()
   shirt(color)
   arms()
   legs()
@@ -15,7 +15,7 @@ def main():
   t.penup()
   t.goto(10,75)
   t.pendown()
-  var2 = eyes()
+  steve_eye_color = eyes()
   t.penup()
   t.goto(30,75)
   t.pendown()
@@ -25,7 +25,7 @@ def main():
   t.pendown()
   mouth()
   t.hideturtle()
-  print("Halloween Steves head has " + str(var) + " sides and his eyes are " + var2 + ".")
+  print("Halloween Steves head has " + str(head_sides) + " sides and his eyes are " + steve_eye_color + ".")
 
 def head(lines=0):
   t.fillcolor("#ff7518")
@@ -35,8 +35,6 @@ def head(lines=0):
     t.left(90)
     lines = lines + 1
   t.end_fill()
-  pos = t.pos()
-  print(pos)
   return(lines)
 
 def shirt(color):
