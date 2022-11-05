@@ -23,12 +23,24 @@ Come up with interfaces fot 3 possible classes you think you may need. Again, br
 
 ## Class Interface 1
 
-< add your interface >
+< class base:
+    first()
+    second()
+    third()  >
 
 ## Class Interface 2
 
-< add your interface >
+< class hit:
+    homerun()
+    single()
+    double()
+    triple() >
 
 ## Class Interface 3
 
-< add your interface >
+< class pitch:
+    fastball()
+    curveball()
+    slider()
+    sinker()
+    knuckle() >
